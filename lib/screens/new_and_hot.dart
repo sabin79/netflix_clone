@@ -11,8 +11,12 @@ class _NewAndHotScreenState extends State<NewAndHotScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.black,
       body: Center(
-        child: Text("New and Hot Screen"),
+        child: Text(
+          "New and Hot Screen",
+          style: TextStyle(color: Colors.black),
+        ),
       ),
     );
   }

@@ -11,8 +11,12 @@ class _HomeScreenState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.black,
       body: Center(
-        child: Text("home Screen"),
+        child: Text(
+          "home Screen",
+    
+        ),
       ),
     );
   }
